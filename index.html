@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="Problem1.js"></script>
+  <script src="Problem2.js"></script>
+  <script src="Problem3.js"></script>
+  <script src="Problem4.js"></script>
+  <script src="Problem5.js"></script>
+  <script src="Problem6.js"></script>
+  <script src="Problem7.js"></script>
+  <script src="Problem8.js"></script>
+  <script src="Problem9.js"></script>
+  <script src="Problem10.js"></script>
+  <script src="Problem11.js"></script>
+  <script src="Problem12.js"></script>
+  <script src="Problem13.js"></script>
+  <script src="Problem14.js"></script>
+  <script src="Problem15.js"></script>
+  
+</head>
+
+<body>
+  
+  <div class="container">
+  <h1>Programming with JavaScript</h1>
+  </div>
+  
+  <i><b>(Problem 1)</b></i><br><br>
+  
+  <lable >Enter a Number:</lable><br><br>
+  <input type="number" id="num">
+  <button type="submit" onclick="Factorial()">Submit</button></td>  
+  
+    
+  <ul>
+    <li><p> Factorial of the Number: <b id="ans1"></b></p></li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 2)</b></i><br><br>
+  
+  <lable >Enter a Number:</lable><br><br>
+  <input type="number" id="cube">
+  <button type="submit" onclick="Cube()">Submit</button>
+  
+  <ul>
+    <li><p> Cube of the Number: <b id="ans2"></b></p></li>
+
+  </ul>
+
+  <hr>
+  
+  <i><b>(Problem 3)</b></i><br><br>
+  
+  
+  <lable>Enter the side of traingle:</lable><br><br>
+  <input type="number" id="a">
+  <button type="submit" onclick="Area()">Submit</button>
+ 
+  <ul>
+    <li>
+      <p> Area of the equilateral traingle: <b id="ans3"></b></p> 
+    </li>
+    
+  </ul>
+
+  <hr>
+  
+ <i><b>(Problem 4)</b></i><br><br>
+  
+  
+  <lable>Enter a Month in Number:</lable><br><br>
+  <input type="number" id="day">
+  <button type="submit" onclick=" getDays()">Submit</button>
+  
+  <ul>
+    <li>
+      <p> Number of days in the month entered:  <b id="ans4"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+ 
+  <i><b>(Problem 5)</b></i><br><br>
+  
+  
+  <lable>Enter temp in Celcius:</lable><br><br>
+  <input type="number" id="temp">
+  <button type="submit" onclick=" CeltoFAh()">Submit</button>
+  
+  <ul>
+    <li>
+      <p> Temperature in Fahrenheit: <b id="ans5"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 6)</b></i><br><br>
+  
+  
+  <lable>Enter a Number :</lable><br><br>
+  <input type="number" id="sum">
+  <button type="submit" onclick=" Sum() ">Submit</button>
+  
+  <ul>
+    <li>
+      <p> Sum of First N number:  <b id="ans6"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 7)</b></i><br><br>
+  
+  
+  <lable>Enter a Number :</lable><br><br>
+  <input type="number" id="series">
+  <button type="submit" onclick=" Series() ">Submit</button>
+  
+  <ul>
+    <li>
+      <p> Nth Number in the series: <b id="ans7"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 8)</b></i><br><br>
+  
+  
+  <lable>Enter a String:</lable><br><br>
+  <input type="text" id="string">
+  <button type="submit" onclick="String()">Submit</button>
+  
+  <ul>
+    <li>
+      <p> Length of the string: <b id="ans8"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 9)</b></i><br><br>
+
+  <lable>Enter coeff of quad eqn :</lable>
+  <input type="text" id="A" style="width: 20px;">
+  <lable>x<sup>2</sup>+</lable>
+  <input type="text" id="B" style="width: 20px;">
+  <lable>x+</lable>
+  <input type="text" id="C" style="width: 20px;">
+  <lable>= 0</lable>
+  <button type="submit" onclick="Roots()">Submit</button>
+  
+  <ul>
+    <li>
+      <p> The roots of quadratic equation are: <b id="ans9"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+   <i><b>(Problem 10)</b>)</i><br><br>
+  
+   
+   <lable>Enter array elements as integer without gap: </lable><br><br>
+   <input type="text" id="element">
+   <button type="submit" onclick=" Sort() "> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Sorted Array: <b id="ans10"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 11)</b></i><br><br>
+  
+   
+   <lable>Enter array elements as integer without gap: </lable><br><br>
+   <input type="text" id="elements">
+   <button type="submit" onclick="Occurence()"> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Sorted Array: <b id="ans11"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 12)</b></i><br><br>
+  
+   
+   <lable>Enter  a integer:</lable><br><br>
+   <input type="text" id="int">
+   <button type="submit" onclick="Palindrome()"> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Number of Palindrome in range: <b id="ans12"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 13)</b></i><br><br>
+  
+   
+   <lable>Enter  a integer:</lable><br><br>
+   <input type="text" id="N">
+   <button type="submit" onclick="FindSeries()"> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Nth element of the series: <b id="ans13"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+
+  <i><b>(Problem 14)</b></i><br><br>
+  
+   
+   <lable>Enter array elements: </lable><br><br>
+   <input type="text" id="N1"><br><br>
+   <lable>Enter k: </lable><br><br>
+   <input type="text" id="k">
+   <button type="submit" onclick="Rotate()"> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Left rotated array: <b id="ans14"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+  
+  <i><b>(Problem 15)</b></i><br><br>
+  
+   
+   <lable>Enter Postfix Expression:</lable><br><br>
+   <input type="text" id="N2">
+   <button type="submit" onclick="PostFix()"> Submit </button>
+  
+  <ul>
+    <li>
+      <p> Post fix value: <b id="ans15"></b></p> 
+    </li>
+  </ul>
+
+  <hr>
+  
+  
+</body>
+
+</html>
