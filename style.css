@@ -1,4 +1,11 @@
+.content {
+  margin : 0px 100px 100px;
+  padding:20px;
+  border: 1px solid black;
+}
+
 .container{
+  margin-top: 10px;
   text-align: center;
 }
 
